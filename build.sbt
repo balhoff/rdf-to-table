@@ -4,7 +4,7 @@ organization := "org.renci"
 
 name := "rdf-to-table"
 
-version := "0.1"
+version := "0.2.1"
 
 licenses := Seq("BSD-3-Clause" -> url("https://opensource.org/licenses/BSD-3-Clause"))
 
