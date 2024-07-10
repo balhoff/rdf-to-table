@@ -8,7 +8,7 @@ version := "0.2.1"
 
 licenses := Seq("BSD-3-Clause" -> url("https://opensource.org/licenses/BSD-3-Clause"))
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.13.14"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
@@ -18,8 +18,8 @@ testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")
 
 libraryDependencies ++= {
   Seq(
-    "org.apache.jena" % "apache-jena-libs" % "4.5.0" exclude("org.slf4j", "slf4j-log4j12"),
+    "org.apache.jena" % "apache-jena-libs" % "5.0.0" exclude("org.slf4j", "slf4j-log4j12"),
     "com.github.alexarchambault" %% "case-app" % "2.0.6",
-    "com.outr" %% "scribe-slf4j" % "3.10.3"
+    "com.outr" %% "scribe-slf4j" % "3.15.0"
   )
 }
